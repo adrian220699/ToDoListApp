@@ -1,0 +1,27 @@
+# Xcode - Archivos de usuario y temporales
+build/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+*.xcuserdatad
+
+# Archivos específicos de usuario dentro del proyecto
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Archivos del sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Dependencias (si usas CocoaPods o Carthage más adelante)
+Pods/
+Carthage/Build/
+
+# Swift Package Manager (si aplica)
+.build/
+.swiftpm/
